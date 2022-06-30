@@ -29,7 +29,7 @@ function SearchBar({ setPaginaActual }) {
       <br />
       <input
         type="text"
-        placeholder="Buscar Pokemon :)"
+        placeholder="Buscar :)"
         value={name}
         className={Style.contenedor}
         onChange={(e) => handlChange(e)}
